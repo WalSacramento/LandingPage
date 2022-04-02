@@ -133,3 +133,13 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+@media (max-width: 480px){
+    .conteudo-principal-imagem {
+        display: none;
+    }
+    
+    .cabecalho{
+        flex-direction: column;
+    }
+}
